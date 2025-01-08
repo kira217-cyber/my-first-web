@@ -11,7 +11,7 @@
 .header{
 background-image: url(../images/developer.png), url(../images/header_bg.png);
 background-repeat: no-repeat;
-background-position: top left, bottom right;
+background-position: center left, bottom right;
 background-color: #FFF8F3;
 }
 
@@ -34,9 +34,29 @@ background-color: #FFF8F3;
 
 
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .text-primary{
     color: #FD6E0A;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-discription{
+    font-size: 18px;
+    color: #757575;
+}
+.text-center{
+    text-align: center;
+
+}
+
+
+
 /* nav style */
 nav{
     display: flex;
@@ -91,4 +111,60 @@ nav li a{
 .banner-discription{
     font-size: 18px;
     margin: 30px 0;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto; 
+    
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+
+
+/* about sytle */
+.about{
+    border-radius: 10px;
+    padding: 131px 156px;
+    text-align: center;
+    margin-top: 100px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.item-discription{
+    font-weight: bold;
+}
+.about-item{
+    margin: 0;
+}
+.item-title{
+    color: #757575;
+}
+
+/* skills section style */
+.skills-container{
+    display: flex;
+    gap: 0;
+}
+.skill{
+    margin: 104px 33px 30px 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.skill-discription{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
 }
